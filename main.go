@@ -86,7 +86,6 @@ func main() {
 	graph := map[string]map[string]int{}
 
 	var origin string
-	_ = origin
 	var destinations []string
 
 	for b.Scan() {
